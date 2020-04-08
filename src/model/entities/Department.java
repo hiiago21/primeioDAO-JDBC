@@ -12,9 +12,9 @@ public class Department implements Serializable {
 	public Department() {
 	}
 	
-	public Department(Integer id, String nome) {
+	public Department(Integer id, String name) {
 		this.id = id;
-		this.name = nome;
+		this.name = name;
 	}
 
 	public Integer getId() {
@@ -29,7 +29,7 @@ public class Department implements Serializable {
 		return name;
 	}
 
-	public void setNome(String nome) {
+	public void setName(String nome) {
 		this.name = nome;
 	}
 
